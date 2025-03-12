@@ -1,6 +1,6 @@
 import "./inquiryForm.css";
 
-function form(){
+function inquiryForm(){
 
     const[value , setValue] = useState({
     name: '',
@@ -8,7 +8,7 @@ function form(){
     phone: '',
     address: '',
     service: '',
-    description:'',
+    message:'',
     status: ''
     });
 
@@ -45,8 +45,8 @@ function form(){
 
                 </select>
 
-                <label htmlFor="description ">Description </label>
-                <textarea name = "description" id="description" cols="30" rows="10" 
+                <label htmlFor="message">Message</label>
+                <textarea name = "message" id="message" cols="30" rows="10" 
                 onChange={(e) => handleChange(e)}placeholder="any detiails you want to add"></textarea>
  
              <button type = "submit">Submit Request</button> 
@@ -55,3 +55,4 @@ function form(){
     );
 
 }
+inquiryForm();
