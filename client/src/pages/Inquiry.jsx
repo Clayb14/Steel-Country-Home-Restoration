@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
-import Form from "../components-inquiry/inquiryForm";
+// import Form from "../components-inquiry/inquiryForm";
 import Footer from "../Components/Footer";
 
 export default function Inquiry() {
