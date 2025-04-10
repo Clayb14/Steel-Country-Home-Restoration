@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react"; // Import the useEffect and useState hooks
+import { useNavigate } from "react-router-dom";
+import "./inquiryTable.css";
 
 const API = "http://localhost:8081/api/inquiry";
 
@@ -42,7 +44,6 @@ export default function InquiryTable() {
                 <td>{record.service}</td>
                 <td>{record.message}</td>
                 <td>{record.status}</td>
-              
             </tr>
           ))}
         </tbody>

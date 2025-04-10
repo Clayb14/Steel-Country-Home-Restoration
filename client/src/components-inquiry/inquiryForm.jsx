@@ -1,8 +1,8 @@
 import "./inquiryForm.css";
 
-function inquiryForm(){
+export default function inquiryForm(){
 
-    const[value , setValue] = useState({
+    const [value , setValue] = useState({
     name: '',
     email: '',
     phone: '',
@@ -55,4 +55,3 @@ function inquiryForm(){
     );
 
 }
-inquiryForm();

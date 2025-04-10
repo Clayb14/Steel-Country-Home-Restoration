@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ServicesAdmin.css";
 
-const API = "http://localhost:8080/api/services";
+const API = "http://localhost:8081/api/services";
 
 export default function ServicesAdmin() {
   const navigate = useNavigate();
